@@ -6,26 +6,9 @@ body{
         font-family: 'Montserrat', sans-serif;
         background-color: #000000;
 }
-.cabeza{
-    background-color: #1bcc32;
-    margin: 0;
-}
 .Logo-1{
-	width: 300px;
-	height: 200px;
-}
-.nav{
-        color: #ffffff;
-        font-family: "Helvetica";
-        font-weight: 500;
-        font-size: 30px;
-        text-align: end;
-}
-.nav li{
-display: flex;
-flex: initial;
-    margin-right: 10px;
-    text-decoration: none
+	width: 21rem;
+	height: 12rem;
 }
 .container{
 display: flex;
@@ -207,5 +190,15 @@ hr{
     border-radius: 6px;
     transition: .3s;
 }
-
-
+.navbar{
+    padding: 20px 10px 20px 0px;
+    background-color: #1bcc32;
+    transition: all ease 0.4s;
+}
+.navbar .navbar-nav li a{
+font-size: 16px;
+color: white;
+padding: 10px 15px;
+display: block;
+    
+}
